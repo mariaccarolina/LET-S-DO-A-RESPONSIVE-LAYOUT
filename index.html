@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MOBILE FIRST</title>
+  </head>
+  <body>
+    <header class="box_header">
+      <section class="hearde_search">
+        <img src="./img/menu.jpg" alt="" />
+        <input type="text" placeholder="flavo" />
+        <img src="./img/2.png" alt="" />
+      </section>
+    </header>
+    <main class="box_main">
+      <section class="main_products">
+        <figure>
+          <img src="./img/intensity.png" alt="" />
+        </figure>
+        <div class="product_price">
+          <h2>COSINESS</h2>
+          <p>$5</p>
+        </div>
+        <div class="product_info">
+          <div>
+            <h3>whats inside?</h3>
+            <p>
+              Sichuan pepper, star anise, Chinese cinnamon, cloves and fennel
+              seeds.
+            </p>
+          </div>
+          <div>
+            <h3>why use that?</h3>
+            <p>
+              They are incredible for seasoning pork, especially those sweet and
+              sour, with thick sauces with honey or cane molasses.
+            </p>
+          </div>
+        </div>
+        <div class="product_size">
+          <div>
+            <input type="radio" name="size" id="sSmall" />
+            <label for="sSmall">BAG(75g)</label>
+          </div>
+          <div>
+            <input type="radio" name="size" id="sBig" />
+            <label for="sBig">JAR(150g)</label>
+          </div>
+        </div>
+        <div class="product_size--quantity">
+          <button onclick="RMV()">-</button>
+          <h4 class="qtd">0</h4>
+          <button onclick="ADD()">+</button>
+        </div>
+        <button class="addToCart">ADD TO CART</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
