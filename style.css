@@ -63,7 +63,6 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  overflow: scroll;
   position: relative;
 }
 .main_products img {
